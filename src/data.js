@@ -8,7 +8,7 @@ export const projects = [
     name: "Retro Snake Game",
     githubLink: "",
     showLink: "",
-    year: "",
+    year: "2018",
   },
   {
     id: uniqid(),
@@ -17,7 +17,7 @@ export const projects = [
     name: "Todo Application",
     githubLink: "",
     showLink: "",
-    year: "",
+    year: "2019",
   },
   {
     id: uniqid(),
@@ -26,6 +26,6 @@ export const projects = [
     name: "Website",
     githubLink: "",
     showLink: "",
-    year: "",
+    year: "2019",
   },
 ]

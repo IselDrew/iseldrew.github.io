@@ -1,20 +1,23 @@
 import React from "react"
-import { projects } from '../data'
+import { projects } from "../data"
 
 function Projects() {
   const projectElements = projects.map(item => (
     <div className="project-element" key={item.id}>
-      <img src={item.img} alt="name"></img>
-      <br />
-      <span className="project-name">{item.name}</span>
+      <div className="project-image">
+        <img src={item.img} alt="name"></img>
+      </div>
+      <div className="project-element-text">
+        <span className="project-name">{item.name}</span>
+        <span className="project-year">{item.year}</span>
+      </div>
     </div>
   ))
   return (
-    <div>
+    <div className="projects">
       <span className="projects-title">Projects</span>
-      <br />
-      <div>{projectElements}</div>
-      <input type="button" value="Load More Work" />
+      <div className="projects-bar">{projectElements}</div>
+      <input className="project-button" type="button" value="Load More Work" />
     </div>
   )
 }
