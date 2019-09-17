@@ -11,7 +11,7 @@ function Header() {
       <div className="header-links">
         <a href="https://github.com/">GH</a>
         <br />
-        <a href="https://www.linkedin.com/">Ln</a>
+        <a href="https://www.linkedin.com/">in</a>
       </div>
     </div>
   )
