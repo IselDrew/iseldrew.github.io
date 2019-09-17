@@ -80,13 +80,9 @@
 /* ------------------------------------------------------- */
 
 .projects {
+  /* background-color: pink; */
   margin-top: 40px;
-  background-color: pink;
   text-align: center;
-}
-
-.projects-title {
-  background-color: yellow;
 }
 
 .projects-bar {
@@ -182,7 +178,15 @@
 /* ----------------------------------------------------- */
 
 .footer {
-  background-color: pink;
+  /* background-color: pink; */
+  background-color: #292929;
+  color: white;
   margin-top: 40px;
   height: 45px;
+}
+
+.footer-text {
+  line-height: 45px;
+  margin-left: 40px;
+  font-size: 12px;
 }

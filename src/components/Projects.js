@@ -15,7 +15,7 @@ function Projects() {
   ))
   return (
     <div className="projects">
-      <span className="projects-title">Projects</span>
+      <span className="paragraph-title">Projects</span>
       <div className="projects-bar">{projectElements}</div>
       <input className="project-button" type="button" value="Load More Work" />
     </div>
