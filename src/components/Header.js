@@ -4,9 +4,9 @@ function Header() {
   return (
     <div className="header">
       <div className="header-title">
-        <span>Hello, I'm</span>
-        <span>Andrii Kyselov</span>
-        <span>FrontEnd Developer</span>
+        <span className="header-line-start">Hello, I'm</span>
+        <span className="header-line-name">Andrii Kyselov</span>
+        <span className="header-line-title">FrontEnd Developer</span>
       </div>
       <div className="header-links">
         <a href="https://github.com/">GH</a>
