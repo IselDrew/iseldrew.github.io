@@ -5,7 +5,7 @@ function Projects() {
   const projectElements = projects.map(item => (
     <div className="project-element" key={item.id}>
       <div className="project-image">
-        <img src={item.img} alt="name"></img>
+        {/* <img src={item.img} alt="name"></img> */}
       </div>
       <div className="project-element-text">
         <span className="project-name">{item.name}</span>
