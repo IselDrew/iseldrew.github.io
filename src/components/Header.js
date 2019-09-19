@@ -1,20 +1,25 @@
 import React from "react"
+import GitHubIcon from "../svg/GitHubIcon"
+import LinkedInIcon from "../svg/LinkedInIcon"
 
 function Header() {
   return (
     <div className="header">
-      <div className="header-title">
+      <div className="header-titles">
         <span className="header-line-start">Hello, I'm</span>
         <span className="header-line-name">Andrii Kyselov</span>
         <span className="header-line-title">FrontEnd Developer</span>
       </div>
       <div className="header-links">
-        <a href="https://github.com/">GH</a>
-        <br />
-        <a href="https://www.linkedin.com/">in</a>
+        <a href="https://github.com/">
+          <GitHubIcon />
+        </a>
+        <a href="https://www.linkedin.com/">
+          <LinkedInIcon />
+        </a>
       </div>
     </div>
   )
 }
 
-export default Header
+export default Header;
