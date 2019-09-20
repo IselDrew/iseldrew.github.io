@@ -6,6 +6,12 @@ function Projects() {
     <div className="project-element" key={item.id}>
       <div className="project-image">
         {/* <img src={item.img} alt="name"></img> */}
+        {/* <div className="projects-links">
+          <a href={item.githubLink} className="projects-links-github">Github</a>
+          <hr className="projects-links-hr"/>
+          <a href={item.checkLink} className="projects-links-check" >Check</a>
+        </div> */}
+
       </div>
       <div className="project-element-text">
         <span className="project-name">{item.name}</span>
