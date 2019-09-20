@@ -33,32 +33,70 @@ export const projects = [
 export const skills = [
   {
     id: uniqid(),
-    name: 'JavaScript',
-    percent: '70%'
+    name: "JavaScript",
+    percent: "70%",
   },
   {
     id: uniqid(),
-    name: 'HTML',
-    percent: '80%'
+    name: "HTML",
+    percent: "65%",
   },
   {
     id: uniqid(),
-    name: 'CSS',
-    percent: '80%'
+    name: "CSS",
+    percent: "65%",
   },
   {
     id: uniqid(),
-    name: 'React.js',
-    percent: '40%'
+    name: "React.js",
+    percent: "40%",
   },
   {
     id: uniqid(),
-    name: 'Node.js',
-    percent: '10%'
+    name: "Node.js",
+    percent: "10%",
   },
   {
     id: uniqid(),
-    name: 'Linux',
-    percent: '50%'
+    name: "Linux",
+    percent: "50%",
+  },
+]
+
+export const languages = [
+  {
+    id: uniqid(),
+    name: "Russian",
+    percent: "100%",
+  },
+  {
+    id: uniqid(),
+    name: "Ukrainian",
+    percent: "100%",
+  },
+  {
+    id: uniqid(),
+    name: "English",
+    percent: "70%",
+  },
+  {
+    id: uniqid(),
+    name: "Polish",
+    percent: "65%",
+  },
+]
+
+export const degrees = [
+  {
+    id: uniqid(),
+    years: "2017 - Present",
+    speciality: "Computer Science",
+    university: 'National Technical University "Dnipro Politechnic", Ukraine',
+  },
+  {
+    id: uniqid(),
+    years: "2016 - 2017",
+    speciality: "Applied Computer Science",
+    university: "Jagiellonian University, Poland",
   },
 ]

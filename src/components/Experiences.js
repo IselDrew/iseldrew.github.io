@@ -1,5 +1,5 @@
 import React from "react"
-import { skills } from "../data"
+import { skills, degrees, languages } from "../data"
 
 function Experiences() {
   const skillsElements = skills.map(item => (
@@ -15,25 +15,50 @@ function Experiences() {
       </div>
     </div>
   ))
+  const languagesElements = languages.map(item => (
+    <div className="skill-line" key={item.id}>
+      <div className="skill-name">
+        <span>{item.name}</span>
+      </div>
+
+      <div className="skill-bar-container">
+        <div className="skill-bar">
+          <div style={{ width: item.percent }} className="skill-level"></div>
+        </div>
+      </div>
+    </div>
+  ))
+
+  const degreesElements = degrees.map(item => (
+    <div className="universities" key={item.id}>
+      <span className="university-years">{item.years}</span>
+      <span className="university-speciality">{item.speciality}</span>
+      <span className="university-name">{item.university}</span>
+    </div>
+  ))
   return (
     <div className="experiences">
       <span className="paragraph-title">Experiences</span>
       <div className="experiences-content">
         <div className="career">
-          <span className="career-title">Career</span>
+          <span className="experiences-paragraph-title">Career</span>
         </div>
         <div className="experiences-hr"></div>
         <div className="skills-education">
           <div className="skills">
-            <span className="skills-title">Skills</span>
-            <div className="skills-elements">{skillsElements}</div>
+            <span className="experiences-paragraph-title">Skills</span>
+            {skillsElements}
           </div>
+          {/* <div className="languages">
+            <span className="experiences-paragraph-title">Languages</span>
+            {languagesElements}
+          </div> */}
           <div className="education">
-            <span className="education-title">Education</span>
+            <span className="experiences-paragraph-title">Education</span>
+            {degreesElements}
           </div>
         </div>
       </div>
-      {/* <input className="project-button" type="button" value="Download CV" /> */}
     </div>
   )
 }

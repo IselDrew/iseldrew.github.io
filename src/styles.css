@@ -229,22 +229,24 @@ svg:hover {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
-  height: 500px;
+  overflow: auto;
+}
+
+.experiences-paragraph-title {
+  font-family: "Montserrat Bold", arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #363636;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .career {
   /* background-color: lightcyan; */
-  width: 48%;
+  width: 45%;
   height: 100%;
   text-align: right;
-}
-
-.career-title {
-  font-family: "Montserrat Bold", arial;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 15px;
-  color: #363636;
 }
 
 .experiences-hr {
@@ -254,40 +256,20 @@ svg:hover {
 
 .skills-education {
   /* background-color: lightcyan; */
-  width: 48%;
-  height: 100%;
+  width: 45%;
   text-align: left;
 }
 
 .skills {
   /* background-color: lightblue; */
-  height: 40%;
-}
-
-.skills-title {
-  /* margin-left: 30px; */
-  font-family: "Montserrat Bold", arial;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 15px;
-  color: #363636;
-}
-
-.skills-elements {
-  margin-top: 20px;
-  /* background-color: pink; */
-  /* margin-left: 30px; */
-  width: 100%;
-  height: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 .skill-line {
   /* background-color: brown; */
   width: 100%;
   height: 20px;
+  margin-top: 5px;
   display: flex;
 }
 
@@ -305,7 +287,6 @@ svg:hover {
 }
 
 .skill-bar {
-  /* background-color: black; */
   background-color: lightgrey;
   width: 100%;
   height: 40%;
@@ -316,18 +297,44 @@ svg:hover {
   height: 100%;
 }
 
-.education-title {
-  /* margin-left: 30px; */
-  font-family: "Montserrat Bold", arial;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 15px;
-  color: #363636;
+.languages {
+  /* background-color: lightcoral; */
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 .education {
-  /* background-color: lightseagreen; */
-  height: 60%;
+  width: 90%;
+}
+
+.universities {
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+}
+
+.university-years {
+  /* background-color: red; */
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: #a1a1a1;
+}
+
+.university-speciality {
+  /* background-color: lightgreen; */
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: "Montserrat Bold", arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #363636;
+  padding-bottom: 5px;
+}
+
+.university-name {
+  /* background-color: pink; */
+  padding-bottom: 20px;
 }
 
 /* ----------------------------------------------------- */
