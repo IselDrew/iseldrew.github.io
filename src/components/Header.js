@@ -11,7 +11,7 @@ function Header() {
         <span className="header-line-title">FrontEnd Developer</span>
       </div>
       <div className="header-links">
-        <a href="https://github.com/">
+        <a href="https://github.com/IselDrew">
           <GitHubIcon />
         </a>
         <a href="https://www.linkedin.com/">
@@ -22,4 +22,4 @@ function Header() {
   )
 }
 
-export default Header;
+export default Header

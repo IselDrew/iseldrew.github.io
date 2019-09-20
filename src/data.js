@@ -1,10 +1,15 @@
 import uniqid from "uniqid"
 
+import snakeImg from "./images/SnakeImage.png"
+import todoImg from "./images/TodoImage.png"
+import websiteImg from "./images/WebsiteImage.png"
+
 export const projects = [
   {
     id: uniqid(),
     img:
-      "https://www.rajeevmasand.com/admin/wp-content/uploads/2014/06/test1-300x300.jpg",
+      // "https://www.rajeevmasand.com/admin/wp-content/uploads/2014/06/test1-300x300.jpg",
+      snakeImg,
     name: "Retro Snake Game",
     githubLink: "",
     checkLink: "",
@@ -13,7 +18,8 @@ export const projects = [
   {
     id: uniqid(),
     img:
-      "https://www.rajeevmasand.com/admin/wp-content/uploads/2014/06/test1-300x300.jpg",
+      // "https://www.rajeevmasand.com/admin/wp-content/uploads/2014/06/test1-300x300.jpg",
+      todoImg,
     name: "Todo Application",
     githubLink: "",
     checkLink: "",
@@ -22,7 +28,8 @@ export const projects = [
   {
     id: uniqid(),
     img:
-      "https://www.rajeevmasand.com/admin/wp-content/uploads/2014/06/test1-300x300.jpg",
+      // "https://www.rajeevmasand.com/admin/wp-content/uploads/2014/06/test1-300x300.jpg",
+      websiteImg,
     name: "Website",
     githubLink: "",
     checkLink: "",
@@ -34,22 +41,22 @@ export const skills = [
   {
     id: uniqid(),
     name: "JavaScript",
-    percent: "70%",
+    percent: "60%",
   },
   {
     id: uniqid(),
     name: "HTML",
-    percent: "65%",
+    percent: "55%",
   },
   {
     id: uniqid(),
     name: "CSS",
-    percent: "65%",
+    percent: "55%",
   },
   {
     id: uniqid(),
     name: "React.js",
-    percent: "40%",
+    percent: "35%",
   },
   {
     id: uniqid(),
