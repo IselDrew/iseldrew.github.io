@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 function About() {
   return (
@@ -9,14 +9,14 @@ function About() {
 
       <div className="about-paragraph">
         <span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          I’m a student software engineer with one year of no-industry
+          experience. Seeking for an opportunity to extend my web development
+          skills and knowledge. Have interest in designing and crafting modern
+          web applications, and willing to learn new technologies.
         </span>
       </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
