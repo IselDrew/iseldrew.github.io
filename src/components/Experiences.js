@@ -47,8 +47,8 @@ function Experiences() {
         </div>
         <div className="experiences-hr"></div>
         <div className="skills-education">
-          <div className="skills">
             <span className="experiences-paragraph-title">Skills</span>
+          <div className="skills">
             {skillsElements}
           </div>
           {/* <div className="languages">

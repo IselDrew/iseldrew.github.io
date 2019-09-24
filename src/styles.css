@@ -118,45 +118,77 @@ svg:hover {
   height: 300px;
 }
 
-.project-image {
+.project-image-container {
   /* background-color: #5a5a5a; */
   border-radius: 10px 10px 0 0;
   height: 85%;
+  position: relative;
+  /* align-items: center; */
 }
 
-.project-image img {
+.project-image-container img {
   border-radius: 10px 10px 0 0;
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transition: 0.8s;
+  transition: 0.4s;
 }
 
-/* .project-image img:hover {
+.project-image-container:hover .project-image {
   cursor: pointer;
+  filter: brightness(50%);
   object-fit: cover;
-  width: 95%;
-  height: 95%;
-} */
+  width: 98%;
+  height: 98%;
+}
 
-/* .projects-links {
-  background-color: pink;
+.projects-links {
+  /* display: none; */
+  opacity: 0;
+  transition: 0.4s;
+  /* background-color: pink; */
+  position: absolute;
   display: flex;
-  justify-content: center;
+  top: 30%;
+  justify-content: space-between;
+  align-content: center;
   width: 100%;
+  height: 30%;
+}
+
+.project-image-container:hover .projects-links {
+  opacity: 1;
 }
 
 .projects-links-github {
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
+  text-align: right;
+  font-family: "Montserrat Bold", arial;
+  align-items: center;
+  width: 45%;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  line-height: 75px;
 }
 
 .projects-links-hr {
-  background-color: lightgreen;
+  background-color: white;
+  width: 1px;
 }
 
 .projects-links-check {
-  background-color: lightblue;
-} */
+  /* background-color: lightblue; */
+  text-align: left;
+  font-family: "Montserrat Bold", arial;
+  width: 45%;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  line-height: 75px;
+}
 
 .project-element-text {
   /* background-color: lightcyan; */
@@ -263,6 +295,10 @@ svg:hover {
 .skills {
   /* background-color: lightblue; */
   padding-bottom: 30px;
+}
+
+.skill-line:first-child {
+  margin-top: 0px;
 }
 
 .skill-line {

@@ -1,28 +1,33 @@
 import React from "react"
 import { projects } from "../data"
 
-function Projects() {
-  const projectElements = projects.map(item => (
-    <div className="project-element" key={item.id}>
-      <div className="project-image">
-        <img src={item.img} alt="name"></img>
-        {/* <div className="projects-links">
-          <a href={item.githubLink} className="projects-links-github">Github</a>
-          <hr className="projects-links-hr"/>
-          <a href={item.checkLink} className="projects-links-check" >Check</a>
-        </div> */}
-      </div>
-      <div className="project-element-text">
-        <span className="project-name">{item.name}</span>
-        <span className="project-year">{item.year}</span>
+const projectElements = projects.map(item => (
+  <div className="project-element" key={item.id}>
+    <div className="project-image-container">
+      <img src={item.img} alt="name" className="project-image"></img>
+      <div className="projects-links">
+        <a href={item.githubLink} className="projects-links-github">
+          Github
+        </a>
+        <div className="projects-links-hr"></div>
+        <a href={item.checkLink} className="projects-links-check">
+          Try it
+        </a>
       </div>
     </div>
-  ))
+    <div className="project-element-text">
+      <span className="project-name">{item.name}</span>
+      <span className="project-year">{item.year}</span>
+    </div>
+  </div>
+))
+
+function Projects() {
   return (
     <div className="projects">
       <span className="paragraph-title">Projects</span>
       <div className="projects-bar">{projectElements}</div>
-      <input className="project-button" type="button" value="Load More Work" />
+      {/* <input className="project-button" type="button" value="Load More Work" /> */}
     </div>
   )
 }
