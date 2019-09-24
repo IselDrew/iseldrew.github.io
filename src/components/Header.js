@@ -14,7 +14,7 @@ function Header() {
         <a href="https://github.com/IselDrew">
           <GitHubIcon />
         </a>
-        <a href="https://www.linkedin.com/">
+        <a href="https://www.linkedin.com/in/andrii-kyselov-00b46a194">
           <LinkedInIcon />
         </a>
       </div>

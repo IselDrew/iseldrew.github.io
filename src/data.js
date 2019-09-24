@@ -8,30 +8,27 @@ export const projects = [
   {
     id: uniqid(),
     img:
-      // "https://www.rajeevmasand.com/admin/wp-content/uploads/2014/06/test1-300x300.jpg",
       snakeImg,
     name: "Retro Snake Game",
-    githubLink: "",
+    githubLink: "https://github.com/IselDrew/Snake-js-canvas",
     checkLink: "",
     year: "2018",
   },
   {
     id: uniqid(),
     img:
-      // "https://www.rajeevmasand.com/admin/wp-content/uploads/2014/06/test1-300x300.jpg",
       todoImg,
     name: "Todo Application",
-    githubLink: "",
+    githubLink: "https://github.com/IselDrew/React-ToDo",
     checkLink: "",
     year: "2019",
   },
   {
     id: uniqid(),
     img:
-      // "https://www.rajeevmasand.com/admin/wp-content/uploads/2014/06/test1-300x300.jpg",
       websiteImg,
     name: "Website",
-    githubLink: "",
+    githubLink: "https://github.com/IselDrew/wix-template-website",
     checkLink: "",
     year: "2019",
   },
