@@ -137,16 +137,11 @@ svg:hover {
 .project-image-container:hover .project-image {
   cursor: pointer;
   filter: brightness(50%);
-  object-fit: cover;
-  width: 98%;
-  height: 98%;
 }
 
 .projects-links {
-  /* display: none; */
-  opacity: 0;
-  transition: 0.4s;
   /* background-color: pink; */
+  opacity: 0;
   position: absolute;
   display: flex;
   top: 30%;
@@ -154,6 +149,7 @@ svg:hover {
   align-content: center;
   width: 100%;
   height: 30%;
+  transition: 0.4s;
 }
 
 .project-image-container:hover .projects-links {
