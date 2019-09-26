@@ -1,14 +1,26 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./fonts/Montserrat-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"),
+    url(./fonts/Montserrat-Bold.otf) format("truetype");
+}
+
 .App {
   width: 1024px;
   margin: auto;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-family: Montserrat;
+  font-weight: 100;
   color: #747474;
 }
 
 .paragraph-title {
   font-size: 35px;
-  font-family: "Montserrat Bold", arial;
+  font-family: Montserrat-Bold, arial;
   font-weight: bold;
   text-transform: uppercase;
   color: #363636;
@@ -42,7 +54,7 @@
 .header-line-name {
   /* background-color: blueviolet; */
   font-size: 35px;
-  font-family: "Montserrat Bold", arial;
+  font-family: Montserrat-Bold, arial;
   font-weight: 900;
   /* height: 100%; */
   /* margin: auto; */
@@ -159,7 +171,7 @@ svg:hover {
 .projects-links-github {
   /* background-color: lightcyan; */
   text-align: right;
-  font-family: "Montserrat Bold", arial;
+  font-family: Montserrat-Bold, arial;
   width: 45%;
   font-weight: bold;
   text-decoration: none;
@@ -177,7 +189,7 @@ svg:hover {
 .projects-links-check {
   /* background-color: lightblue; */
   text-align: left;
-  font-family: "Montserrat Bold", arial;
+  font-family: Montserrat-Bold, arial;
   width: 45%;
   font-weight: bold;
   text-decoration: none;
@@ -201,7 +213,7 @@ svg:hover {
   display: flex;
   justify-content: space-between;
 
-  font-family: "Montserrat Bold", arial;
+  font-family: Montserrat-Bold, arial;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 15px;
@@ -225,7 +237,7 @@ svg:hover {
   border-radius: 30px;
   padding: 10px;
 
-  font-family: "Montserrat Bold", arial;
+  font-family: Montserrat-Bold, arial;
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
@@ -252,7 +264,7 @@ svg:hover {
 .experiences-title {
   /* background-color: yellow; */
 
-  font-family: "Montserrat Bold", arial;
+  font-family: Montserrat-Bold, arial;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 15px;
@@ -268,7 +280,7 @@ svg:hover {
 }
 
 .experiences-paragraph-title {
-  font-family: "Montserrat Bold", arial;
+  font-family: Montserrat-Bold, arial;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 20px;
@@ -313,7 +325,7 @@ svg:hover {
   display: inline-block;
   margin-top: 20px;
   font-size: 15px;
-  font-family: "Montserrat Bold", arial;
+  font-family: Montserrat-Bold, arial;
   font-weight: bold;
   text-transform: uppercase;
   color: #363636;
