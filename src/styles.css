@@ -160,13 +160,13 @@ svg:hover {
   /* background-color: lightcyan; */
   text-align: right;
   font-family: "Montserrat Bold", arial;
-  align-items: center;
   width: 45%;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
   line-height: 75px;
+  transition: 0.5s;
 }
 
 .projects-links-hr {
@@ -184,6 +184,13 @@ svg:hover {
   text-transform: uppercase;
   color: white;
   line-height: 75px;
+  transition: 0.5s;
+}
+
+.projects-links-github:hover,
+.projects-links-check:hover {
+  color: lightgrey;
+  /* text-decoration: underline; */
 }
 
 .project-element-text {
@@ -270,11 +277,52 @@ svg:hover {
   margin-bottom: 20px;
 }
 
+.career-education {
+  /* background-color: pink; */
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
 .career {
   /* background-color: lightcyan; */
-  width: 45%;
-  height: 100%;
-  text-align: right;
+  padding-bottom: 30px;
+}
+
+.education {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.universities {
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+}
+
+.university-years {
+  /* background-color: red; */
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: #a1a1a1;
+}
+
+.university-speciality {
+  /* background-color: lightgreen; */
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: "Montserrat Bold", arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #363636;
+  padding-bottom: 5px;
+}
+
+.university-name {
+  /* background-color: pink; */
+  padding-bottom: 20px;
 }
 
 .experiences-hr {
@@ -282,7 +330,7 @@ svg:hover {
   width: 1px;
 }
 
-.skills-education {
+.skills-languages {
   /* background-color: lightcyan; */
   width: 45%;
   text-align: left;
@@ -327,46 +375,6 @@ svg:hover {
 .skill-level {
   background-color: #5e5e5e;
   height: 100%;
-}
-
-.languages {
-  /* background-color: lightcoral; */
-  width: 100%;
-  padding-bottom: 30px;
-}
-
-.education {
-  width: 90%;
-}
-
-.universities {
-  /* background-color: brown; */
-  display: flex;
-  flex-direction: column;
-}
-
-.university-years {
-  /* background-color: red; */
-  font-size: 15px;
-  text-decoration: underline;
-  text-decoration-color: #a1a1a1;
-}
-
-.university-speciality {
-  /* background-color: lightgreen; */
-  display: inline-block;
-  margin-top: 20px;
-  font-size: 15px;
-  font-family: "Montserrat Bold", arial;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #363636;
-  padding-bottom: 5px;
-}
-
-.university-name {
-  /* background-color: pink; */
-  padding-bottom: 20px;
 }
 
 /* ----------------------------------------------------- */

@@ -7,29 +7,26 @@ import websiteImg from "./images/WebsiteImage.png"
 export const projects = [
   {
     id: uniqid(),
-    img:
-      snakeImg,
+    img: snakeImg,
     name: "Retro Snake Game",
     githubLink: "https://github.com/IselDrew/Snake-js-canvas",
-    checkLink: "",
+    demoLink: "https://iseldrew.github.io/Snake-js-canvas/",
     year: "2018",
   },
   {
     id: uniqid(),
-    img:
-      todoImg,
+    img: todoImg,
     name: "Todo Application",
     githubLink: "https://github.com/IselDrew/React-ToDo",
-    checkLink: "",
+    demoLink: "https://iseldrew.github.io/React-ToDo/",
     year: "2019",
   },
   {
     id: uniqid(),
-    img:
-      websiteImg,
+    img: websiteImg,
     name: "Website",
     githubLink: "https://github.com/IselDrew/wix-template-website",
-    checkLink: "",
+    demoLink: "https://iseldrew.github.io/Website-template/",
     year: "2019",
   },
 ]

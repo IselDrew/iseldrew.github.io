@@ -10,8 +10,8 @@ const projectElements = projects.map(item => (
           Github
         </a>
         <div className="projects-links-hr"></div>
-        <a href={item.checkLink} className="projects-links-check">
-          Try it
+        <a href={item.demoLink} className="projects-links-check">
+          Demo
         </a>
       </div>
     </div>
