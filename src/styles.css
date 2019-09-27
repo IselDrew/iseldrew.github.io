@@ -408,7 +408,7 @@ svg:hover {
   font-weight: 300;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .App {
     width: 320px;
   }
