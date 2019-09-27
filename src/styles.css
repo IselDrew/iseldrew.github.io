@@ -407,3 +407,48 @@ svg:hover {
   font-size: 12px;
   font-weight: 300;
 }
+
+@media screen and (max-width: 320px) {
+  .App {
+    width: 320px;
+  }
+
+  .about-paragraph {
+    width: 90%;
+  }
+
+  .projects-bar {
+    flex-direction: column;
+    width: 95%;
+    margin: 40px auto;
+  }
+
+  .project-element {
+    width: 100%;
+  }
+
+  .experiences-content {
+    margin: 50px auto;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .career-education {
+    width: 100%;
+    text-align: center;
+  }
+
+  .skills-languages {
+    width: 100%;
+    text-align: center;
+  }
+
+  .skill-name {
+    width: 40%;
+  }
+
+  .footer-text {
+    margin: auto;
+    font-size: 10px;
+  }
+}
